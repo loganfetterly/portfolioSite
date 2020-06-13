@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Logan Fetterly",
+    "label": "Computer Science Undergrad",
+    "picture": "",
+    "email": "lfetterly25@gmail.com",
+    "phone": "(780) 908-0717",
+    "website": "http://loganfetterly.com",
+    "summary": "I am a recent Computer Science graduate that is looking to specialize in Full-Stack Development and Data Science.",
+    "location": {
+      "address": "9 Heron Link",
+      "postalCode": "T7X 0E8",
+      "city": "Spruce Grove",
+      "countryCode": "CA",
+      "region": "Alberta"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Logan",
+        "url": "https://twitter.com/PiNNyBoyy"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Logan",
+        "url": "https://linkedin.com/loganfetterly"
+      },
+      {
+        "network": "Github",
+        "username": "Logan",
+        "url": "https://github.com/loganfetterly"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Edmonton Heritage Council",
+      "position": "IT Coordinator",
+      "website": "http://edmontonheritage.ca",
+      "startDate": "2020-04-26",
+      "summary": "Expands on the position of Data Manager to include management of different IT related accounts and general office IT support for program work, database training, meetings, and other technical consultation."
+    },
+    {
+      "company": "Edmonton Heritage Council",
+      "position": "Data Manager, Intern",
+      "website": "http://edmontonheritage.ca",
+      "startDate": "2019-04-23",
+      "summary": "Worked as an intern for EHC providing them excellent data cleaning and data consolidation in preparation for onboarding their digital assets into an online database using Microsoft Excel. I also took the role of an office assistant between projects throughout the year to stay busy and active within the organization. I reduced ~4000 membership records since the date of incorporation down to ~400 concise unique records neatly for database acceptance."
+    },
+    {
+      "company": "MacEwan Economics Club",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2019-10-24",
+      "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
+    },
+    {
+      "company": "Spruce Grove Sobeys",
+      "position": "Cashier / Grocery Clerk",
+      "website": "http://company.com",
+      "startDate": "2014-07-02",
+      "summary": "Helped the store maintain high standards of customer satisfaction in keeping a strong personal record of customer engagement complemented with timely service."
+    }
+  ],
+  "education": [
+    {
+      "institution": "MacEwan University",
+      "area": "Science",
+      "studyType": "Bachelor",
+      "startDate": "2014-08-31",
+      "endDate": "2020-04-09",
+      "gpa": "2.8",
+      "courses": [
+        "Computer Sciences",
+        "Economics"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": 4,
+      "keywords": [
+        "C",
+        "C#",
+        "Java",
+        "JavaScript",
+        "Python"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "level": 5,
+      "keywords": [
+        "HTML5 / CSS3",
+        "JQuery",
+        "Bootstrap 3 & 4",
+        "Vuetify"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": 5,
+      "keywords": [
+        "Microsoft Excel",
+        "Data Analysis",
+        "General Office IT Needs"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Since graduation I've known Web Development is the area I want to specialize in. Every day I'm practicing these technical skills to further myself into an expert full-stack developer."
+      ]
+    },
+    {
+      "name": "Back-End",
+      "keywords": [
+        "Through my degree I've developed a strong understanding of the fundamentals of Object Oreintated programming. I'm confident I can learn and specilaize in the stack in your company."
+      ]
+    },
+    {
+      "name": "Data Visualizations",
+      "keywords": [
+        "Both through my education and professional work I've been tasked with creating visualizations and "
+      ]
+    },
+    {
+      "name": "Support",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    }
+  ]
+}
