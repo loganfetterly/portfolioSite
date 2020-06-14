@@ -20,4 +20,8 @@
   .text-decoration-none {
     text-decoration: none;
   }
+
+  .theme--dark.v-application {
+    background: #303030;
+  }
 </style>

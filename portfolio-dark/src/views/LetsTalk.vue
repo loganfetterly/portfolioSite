@@ -18,7 +18,7 @@
         Fusce eu finibus magna.
       </core-text>
 
-      <core-subheading class="text-uppercase mb-3">
+      <core-subheading class="text-uppercase mb-5">
         Send me a Message
       </core-subheading>
 
@@ -42,6 +42,7 @@
         />
 
         <v-textarea
+          id="brokenInput"
           solo-inverted
           flat
           label="Message"
@@ -51,7 +52,7 @@
           class="ma-0"
           color="primary"
         >
-          Contact Me
+          <a v-bind="insertEmail">CONTACT ME</a>
         </v-btn>
       </v-form>
     </v-col>
@@ -74,9 +75,9 @@
         <v-list-item>
           <v-list-item-avatar>
             <v-icon
-              class="mr-5"
+              class="mr-5 sIcons"
               color="primary"
-              size="48"
+              size="36"
             >
               mdi-map-marker
             </v-icon>
@@ -94,9 +95,9 @@
         <v-list-item>
           <v-list-item-avatar>
             <v-icon
-              size="48"
+              size="36"
               color="primary"
-              class="mr-5"
+              class="mr-5 sIcons"
             >
               mdi-email
             </v-icon>
@@ -111,9 +112,9 @@
         <v-list-item>
           <v-list-item-avatar>
             <v-icon
-              size="48"
+              size="36"
               color="primary"
-              class="mr-5"
+              class="mr-5 sIcons"
             >
               mdi-phone
             </v-icon>
@@ -152,6 +153,34 @@
 
     computed: {
       ...mapState('app', ['schema']),
+
+      insertEmail () {
+        return {
+          id: 'contactButton',
+          href: 'mailto:lfetterly25@gmail.com',
+        }
+      },
     },
   }
 </script>
+
+<style>
+
+#brokenInput:focus {
+  color: rgb(118, 118, 118);
+}
+
+.sIcons {
+  padding-left: 20px;
+}
+
+#contactButton {
+  color: white;
+  text-decoration: none;
+}
+
+#lets-talk {
+  margin-top: 350px;
+}
+
+</style>

@@ -22,11 +22,26 @@
           />
 
           <v-card class="pa-3">
-            <h3
+            <h2
               class="subheading font-weight-bold"
               v-text="item.company"
             />
+            <hr class="cardRule">
+            <h3
+              class="my-3 positions"
+              v-text="item.position"
+            />
             <div v-text="item.summary" />
+            <v-row class="pond">
+                <v-btn
+                  class="workButton"
+                  color="primary"
+                  :href="item.website"
+                  target="_blank"
+                >
+                <v-icon>mdi-web</v-icon>
+                </v-btn>
+            </v-row>
           </v-card>
         </v-timeline-item>
       </v-timeline>
@@ -44,7 +59,7 @@
     name: 'WhereIveBeen',
 
     data: vm => ({
-      light: vm.random(),
+      light: false,
     }),
 
     computed: {
@@ -58,8 +73,8 @@
       getAttrs () {
         const attrs = {}
 
-        if (this.random()) attrs.fillDot = true
-        if (this.random()) attrs.largeDot = true
+        attrs.fillDot = true
+        attrs.largeDot = true
 
         return attrs
       },
@@ -69,3 +84,31 @@
     },
   }
 </script>
+
+<style>
+
+.cardRule {
+  margin-top: 6px;
+  width: 70%;
+}
+
+.pond {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.workButton {
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.positions {
+  font-weight: 300;
+  font-style: italic;
+}
+
+#where-ive-been {
+  margin-top: 400px;
+}
+
+</style>

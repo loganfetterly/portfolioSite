@@ -50,14 +50,14 @@
     {
       "company": "MacEwan Economics Club",
       "position": "President",
-      "website": "http://company.com",
+      "website": "https://www.instagram.com/econclubmacewan/",
       "startDate": "2019-10-24",
       "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
     },
     {
       "company": "Spruce Grove Sobeys",
       "position": "Cashier / Grocery Clerk",
-      "website": "http://company.com",
+      "website": "http://sobeys.ca",
       "startDate": "2014-07-02",
       "summary": "Helped the store maintain high standards of customer satisfaction in keeping a strong personal record of customer engagement complemented with timely service."
     }
@@ -124,7 +124,7 @@
     {
       "name": "Data Visualizations",
       "keywords": [
-        "Both through my education and professional work I've been tasked with creating visualizations and "
+        "Both through my education and professional work I've been tasked with creating visualizations to garner business intelligence."
       ]
     },
     {

@@ -11,11 +11,11 @@
         <v-col cols="auto">
           <blockquote style="max-width: 230px;">
             <p class="subheading font-weight-light font-italic">
-              I have been a Core Contributor to the Vuetify opensource project for 2 years and counting...
+              Download my resume here...
             </p>
             <footer class="text-center">
               <v-btn color="primary">
-                download cv
+                <a v-bind="downloadButton">download resume</a>
               </v-btn>
             </footer>
           </blockquote>
@@ -80,6 +80,23 @@
 
     computed: {
       ...mapState('app', ['schema']),
+
+      downloadButton () {
+        return {
+          id: 'downloadButton',
+          download: true,
+          href: 'https://cdn.discordapp.com/attachments/721486919875428451/721534483223806083/Resume2020.docx',
+        }
+      },
     },
   }
 </script>
+
+<style>
+
+#downloadButton {
+  text-decoration: none;
+  color: white;
+}
+
+</style>
