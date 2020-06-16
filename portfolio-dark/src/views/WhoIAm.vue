@@ -17,7 +17,7 @@
             <p v-text="schema.basics.summary" />
             <div>
               <v-img
-                :src="require('@/assets/signature.png')"
+                :src="require('../assets/signature.png')"
                 class="ml-auto"
                 width="150"
               />
@@ -54,7 +54,7 @@
             >
               <div
                 class="mb-3"
-                v-text="'United States'"
+                v-text="'Alberta, CA'"
               />
               <div
                 class="mb-3 text-truncate"
@@ -64,7 +64,7 @@
                 class="mb-3"
                 v-text="schema.basics.phone"
               />
-              <div>@j.smith#3992</div>
+              <div>@PiNNy#9481</div>
             </v-col>
           </v-row>
         </v-col>
@@ -86,7 +86,7 @@
       />
 
       <v-img
-        :src="require('@/assets/john.png')"
+        :src="require('@/assets/logan.png')"
         contain
         height="900"
         style="right: 0; position: absolute; top: 300px;"

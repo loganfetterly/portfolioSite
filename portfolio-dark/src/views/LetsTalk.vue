@@ -128,13 +128,6 @@
         </v-list-item>
       </v-list>
     </v-col>
-    <v-img
-      :src="require('@/assets/john-alt.png')"
-      contain
-      max-width="30vw"
-      style="bottom: -20px; right: 0; position: absolute;"
-      width="100%"
-    />
   </core-section>
 </template>
 

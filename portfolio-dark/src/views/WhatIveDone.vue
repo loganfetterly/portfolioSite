@@ -35,19 +35,19 @@
     data: () => ({
       projects: [
         {
-          name: 'Classic Cafe Rebrand',
-          category: 'Logo Design',
-          src: 'classic-cafe.png',
+          name: 'Phoenix Empire Web Development',
+          category: 'Front-end Web',
+          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
         },
         {
-          name: 'Flagship',
-          category: 'Digital Design',
-          src: 'flagship.jpg',
+          name: 'Data Visualizations for Edmonton Heritage Council',
+          category: 'Data Visualization, Data Science',
+          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
         },
         {
-          name: 'Biere Craft Beer',
-          category: 'Marketing and Graphic Design',
-          src: 'biere.jpg',
+          name: 'Memory Game for Edmonton Public Library',
+          category: 'Game Development, Graphics Engine',
+          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
         },
       ],
     }),

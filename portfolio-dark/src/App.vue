@@ -22,6 +22,6 @@
   }
 
   .theme--dark.v-application {
-    background: #303030;
+    background: #505050;
   }
 </style>
