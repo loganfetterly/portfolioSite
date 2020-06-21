@@ -37,17 +37,17 @@
         {
           name: 'Phoenix Empire Web Development',
           category: 'Front-end Web',
-          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
+          src: 'phoenixEmpire.jpg',
         },
         {
           name: 'Data Visualizations for Edmonton Heritage Council',
           category: 'Data Visualization, Data Science',
-          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
+          src: 'EHC_Data_Vis.jpg',
         },
         {
           name: 'Memory Game for Edmonton Public Library',
           category: 'Game Development, Graphics Engine',
-          src: 'C:/Work/Personal/PortfolioWebsite/portfolio-dark/src/assets/projects/phoenixEmpire.PNG',
+          src: 'phoenixEmpire.jpg',
         },
       ],
     }),

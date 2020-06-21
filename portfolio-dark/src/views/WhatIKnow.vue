@@ -85,7 +85,7 @@
         return {
           id: 'downloadButton',
           download: true,
-          href: 'https://cdn.discordapp.com/attachments/721486919875428451/721534483223806083/Resume2020.docx',
+          href: '#',
         }
       },
     },

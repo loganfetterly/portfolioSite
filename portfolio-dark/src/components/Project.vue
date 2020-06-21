@@ -78,7 +78,7 @@
         class="hidden-sm-and-down"
       >
         <v-img
-          :src="require(`../assets/projects/${value.src}`)"
+          :src="require(`@/assets/projects/${value.src}`)"
           height="350"
           width="500"
           contain
